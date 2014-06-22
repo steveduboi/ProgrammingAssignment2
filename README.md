@@ -28,7 +28,7 @@ really a list containing a function to
 4.  get the value of the mean
 
 <!-- -->
-
+mx <- matrix(c(10, 20, 30, 40), 2, 2)
     makeVector <- function(x = numeric()) {
             m <- NULL
             set <- function(y) {
